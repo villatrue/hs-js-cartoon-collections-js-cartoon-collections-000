@@ -1,4 +1,13 @@
-de doe## Objectives
+function findTheCheese (foods) {
+  var cheese = ["cheddar", "gouda", "camembert"]
+  for (var i = 0; i < foods.length; i++) {
+    if (cheese.includes(foods.length[i])) {
+  
+        return foods[i];
+        }
+    }
+  return "no cheese!"
+  }de doe## Objectives
 
 You're going to get familiar with iterating through arrays in Javascript. 
 
