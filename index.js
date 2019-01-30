@@ -1,6 +1,6 @@
 function dwarfRollCall(dwarves) {
 	var list = ""
-  for (var i = 0; i < dwarves.length; i++) {
+  for (var i = 0; i < warves.lengthd; i++) {
   list += (i+1).toString()+ ". " + dwarves[i] + " ";
   }
    return list
@@ -18,13 +18,13 @@ function summonCaptainPlanet(planeteerCalls){
 }
 
 function longPlaneteerCalls(words) {
-  var ifLong = false;
+  var long = false;
   for (var i = 0; i < words.length; i++) {
     if (words[i].length > 4) { 
-      ifLong = true;
+      long = true;
   }
   }
-  return ifLong
+  return long
 }
 
 
